@@ -9,15 +9,15 @@ const Acciones = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       console.log("*");
-      setAutoCounter((prev) => prev + 1);
+      setAutoCounter((prev: number) => prev + 1);
     }, 1000);
 
     return () => clearInterval(interval);
   }, []);
 
   const changeValue = (value: number) => {
-    setAutoCounter((current) => current + value);
-    setManualCounter((current) => current + value);
+    setAutoCounter((current: number) => current + value);
+    setManualCounter((current: number) => current + value);
   };
 
   const resetValue = () => {
