@@ -1,13 +1,14 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import Acciones from './componentes/Acciones.tsx';
+import Acciones from './componentes/Acciones';
+import PerfilPage from './componentes/PerfilPage';
 
 function App() {
   return (
-    <Router basename="/icc-ppw-u2-pages">
+    <Router>
       <Routes>
-        <Route path="/" element={<Homepage />} />
-        <Route path="/perfil" element={<Perfil />} />
+        <Route path="/" element={<Acciones />} />
+        <Route path="/perfil" element={<PerfilPage />} />
       </Routes>
     </Router>
   );

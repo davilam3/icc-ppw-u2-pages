@@ -1,20 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+// src/App.tsx
 import React from 'react';
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import PerfilPage from './componentes/perfilpage';
+import Acciones from './componentes/Acciones';
+import PerfilPage from './componentes/PerfilPage';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<PerfilPage />} />
+        <Route path="/" element={<Acciones />} />
+        <Route path="/perfil" element={<PerfilPage />} />
       </Routes>
     </Router>
   );
 }
 
 export default App;
+
 
    // <div className="App">
      // <PerfilPage />
