@@ -1,6 +1,7 @@
 // src/App.tsx
+// src/App.tsx
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Acciones from './componentes/Acciones';
 import PerfilPage from './componentes/PerfilPage';
 
@@ -16,6 +17,7 @@ function App() {
 }
 
 export default App;
+
 
 
    // <div className="App">
