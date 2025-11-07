@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HasgRouter as Router, Routes, Route } from "react-router-dom";
 import PerfilPage from './componentes/perfilpage';
 
 function App() {
