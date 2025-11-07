@@ -1,4 +1,7 @@
 {
+    "name": "homepage",
+  "version": "0.1.0",
+  "private": true,
   "homepage": "https://davilam3.github.io/icc-ppw-u2-pages",
   "dependencies": {
     "react-router": "^7.9.5"
