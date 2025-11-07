@@ -4,9 +4,12 @@ import Acciones from './componentes/Acciones.tsx';
 
 function App() {
   return (
-    <div className="App">
-      <Acciones />
-    </div>
+    <Router basename="/icc-ppw-u2-pages">
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/perfil" element={<Perfil />} />
+      </Routes>
+    </Router>
   );
 }
 
